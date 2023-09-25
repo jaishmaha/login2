@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body
+{
+	display:flex;
+	justify-content:Center;
+	width:90%;
+}
+.container
+{
+	display:flex;
+	align-items:center;
+	justify-content:Center;
+	width: 50%;
+	border:5px solid #e1dada33;
+	margin-top:20px;
+	height:60vh;
+	position:relative;
+}
+.container::before
+{
+	content:"";
+	position:absolute;
+	bottom:-7px;
+	left:-5px;
+	width:25%;
+	height:30%;
+	border-left:5px solid yellow;
+	border-bottom:5px solid yellow;
+	border-radius:0 0 0 10px;
+	
+}
+.container::after
+{
+	content:"";
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	width:25%;
+	height:30%;
+	border-right:5px solid #c00606;
+	border-top:5px solid #c00606;
+	border-radius:0 10px 0 0;
+	
+}
+
+.left-sign-in
+{
+	background-color: #4fc98b;
+    width: 40%;
+	height:60vh;
+	border-radius:12px 0 0 10px;
+}
+.left-sign-in .top-icon
+{
+	color:white;
+	padding:10px;
+}
+.top-icon span
+{
+	font-size:11px;
+}
+.welcome
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	height:60vh;
+	text-align:Center;
+	padding-bottom:60px;
+}
+.welcome h1
+{
+	font-family:"raleway";
+}
+.left-sign-in p
+{
+	font-family:"sans serif";
+	margin-top:20px;
+	padding:0 10px 0 15px;
+}
+.signin-but a
+{
+	text-decoration: none;
+	color:white;
+    padding: 12px 60px;
+    border-radius: 24px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+	white-space:no-wrap;
+}
+.account
+{
+	width:60%;
+	height:60vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:Center;
+	align-items:Center;
+	padding:90px;
+	
+}
+.account h1
+{
+    color: #4fc98b;
+}
+.icons
+{
+	display:flex;
+	margin:20px 0;
+}
+.icons i
+{
+    color: #161618;
+    margin-left: 15px;
+    font-size: 11px;
+    border: 1px solid #888f88;
+	background-color:transparent;
+    padding: 9px;
+	height:22px;
+	width:22px;
+    border-radius: 50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.account p
+{
+    color: #d3d0d0;
+    font-size: 10px;
+}
+.user-input
+{
+	margin:10px 0 15px 0;
+	/* padding-left:10px; */
+}
+
+.user-input input
+{
+	/* display:inline-block; */
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e1dada33;
+    padding: 10px 25px;
+    width: 300px;
+	position: relative;
+    
+}
+.user-input i{
+	color:#8f8f95;
+	position:absolute;
+	margin-top:17px;
+	margin-left:5px;
+	border:none; 	
+}
+.signup-but
+{
+	margin-top:10px;
+}
+.signup-but a
+{
+	text-decoration: none;
+    color: white;
+    padding: 11px 33px;
+    border-radius: 24px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #4fc98b;
+	white-space:no-wrap;
+}
